@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9f869253ae6c006dbb80c546a11e035e001352ef6cd4f12e010a6d59eefdaff9"
+            "sha256": "8a28147ac67aedd9ba7a5ecfafa545d45c21f8e99a3b2ce0b3f76c515c1ef57f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -84,6 +84,15 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.9.9"
         },
+        "six": {
+            "hashes": [
+                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.16.0"
+        },
         "sqlparse": {
             "hashes": [
                 "sha256:773dcbf9a5ab44a090f3441e2180efe2560220203dc2f8c0b0fa141e18b505e4",
@@ -107,6 +116,13 @@
             ],
             "markers": "sys_platform == 'win32'",
             "version": "==2024.1"
+        },
+        "validate-email": {
+            "hashes": [
+                "sha256:784719dc5f780be319cdd185dc85dd93afebdb6ebb943811bc4c7c5f9c72aeaf"
+            ],
+            "index": "pypi",
+            "version": "==1.3"
         },
         "waitress": {
             "hashes": [
